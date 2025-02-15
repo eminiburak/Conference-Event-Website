@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Contact -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with the TechForward 2024 team for any inquiries.</p>
+        <div>
+            <h3>Contact information</h3>
+            <p>Email: info@techforward2024.com
+            </p>
+            <p>Phone: +123 456 7890</p>
+            <p>Address: Pallati i Kongreseve, Bulevardi Dëshmorët e Kombit, Tiranë, Albania
+            </p>
+            <div class="mapswrapper">
+                <iframe width="600" height="450" loading="lazy" allowfullscreen
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Skopje&zoom=10&maptype=roadmap"></iframe><a
+                    href="https://www.taxuni.com/">taxuni</a>
+                <style>
+                    .mapswrapper {
+                        background: #fff;
+                        position: relative
+                    }
+            
+                    .mapswrapper iframe {
+                        border: 0;
+                        position: relative;
+                        z-index: 2
+                    }
+            
+                    .mapswrapper a {
+                        color: rgba(0, 0, 0, 0);
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        z-index: 0
+                    }
+                </style>
+            </div>
+</div>
+<div>
+            <h3>Inquiries
+            </h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
