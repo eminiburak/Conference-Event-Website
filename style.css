@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p,
+  ul,
+  ol {
+    margin-top: 0;
+  }
+  
+  h1 {
+    font-size: 50px;
+  }
+  
+  h2 {
+    font-size: 40px;
+  }
+  
+  h3 {
+    font-size: 28px;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  
+  img {
+    width: 100%;
+  }
+  .banner {
+    position: relative;
+    background: url('images/banner.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .banner .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin: 0 auto;
+    padding: 230px 500px 230px 500px;
+  }
+  .banner button {
+    background: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .about {
+    background-color: white;
+    text-align: left;
+    padding: 40px 200px;
+  }
+  
+  .classes {
+    padding: 40px 220px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .card-container > div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .card {
+    position: relative;
+    width: 500px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin: 10px auto;
+  }
+  .card img {
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .card .discount {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: white;
+    color: red;
+    padding: 20px;
+    border-radius: 3px;
+  }
+  
+  .schedule {
+    background-color: white;
+    padding: 40px 200px;
+    text-align: left;
+  }
+  
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .contact {
+    padding: 40px 200px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form{
+    background-color: #333;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  form {
+    margin: 0 auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  form textarea {
+    height: 100px;
+  }
+  
+  form button {
+    background: #ff5733;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    width: 30%;
+    padding: 10px;
+  }
+  
+  footer {
+    background: #ff5733;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
