@@ -42,57 +42,48 @@
           </div>
         </div>
       </nav> 
-    <!-- Contact -->
-    <section class="contact">
-        <h2>Contact Us</h2>
-        <p>Get in touch with the TechForward 2024 team for any inquiries.</p>
-        <div>
-            <h3>Contact information</h3>
-            <p>Email: info@techforward2024.com
-            </p>
-            <p>Phone: +123 456 7890</p>
-            <p>Address: Pallati i Kongreseve, Bulevardi Dëshmorët e Kombit, Tiranë, Albania
-            </p>
-            <div class="mapswrapper">
-                <iframe width="600" height="450" loading="lazy" allowfullscreen
-                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Skopje&zoom=10&maptype=roadmap"></iframe><a
-                    href="https://www.taxuni.com/">taxuni</a>
-                <style>
-                    .mapswrapper {
-                        background: #fff;
-                        position: relative
-                    }
-            
-                    .mapswrapper iframe {
-                        border: 0;
-                        position: relative;
-                        z-index: 2
-                    }
-            
-                    .mapswrapper a {
-                        color: rgba(0, 0, 0, 0);
-                        position: absolute;
-                        left: 0;
-                        top: 0;
-                        z-index: 0
-                    }
-                </style>
-            </div>
-</div>
-<div>
-            <h3>Inquiries
-            </h3>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message"></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </section>
+<!-- Contact Section -->
+<section class="container my-5">
+  <h1>Contact Us</h1>
+  <p>Get in touch with the TechForward 2024 team for any inquiries.</p>
+
+  <div class="row mt-4">
+      <!-- Contact Information -->
+      <div class="col-md-6">
+          <h3>Contact Information</h3>
+          <p><strong>Email:</strong> info@techforward2024.com</p>
+          <p><strong>Phone:</strong> +123 456 7890</p>
+          <p><strong>Address:</strong> Pallati i Kongreseve, Bulevardi Dëshmorët e Kombit, Tiranë, Albania</p>
+
+          <h4>Location</h4>
+          <div class="ratio ratio-16x9">
+              <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Pallati+i+Kongreseve,Tirane"
+                  allowfullscreen></iframe>
+          </div>
+      </div>
+
+      <!-- Inquiry Form -->
+      <div class="col-md-6">
+          <h3>Inquiries</h3>
+          <form>
+              <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+              </div>
+              <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+              </div>
+              <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="4"
+                      placeholder="Your Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Send Message</button>
+          </form>
+      </div>
+  </div>
+</section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
